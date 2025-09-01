@@ -1,0 +1,10 @@
+dataloader:
+  batch_size: 2
+  max_length: 256
+  stride: 256
+  shuffle: true
+  drop_last: true
+  num_workers: 0
+  train_ratio: 0.9
+  data_file: "data/corpus.txt"
+  tokenizer_path: "artifacts/tokenizer/vocab1k.json"

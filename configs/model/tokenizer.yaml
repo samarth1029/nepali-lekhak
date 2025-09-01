@@ -1,0 +1,12 @@
+tokenizer:
+  vocab_size: 1000
+  min_frequency: 2
+  special_tokens:
+    - "<PAD>"
+    - "<UNK>"
+    - "<BOS>"
+    - "<EOS>"
+    - "<|endoftext|>"
+  save_dir: "artifacts/tokenizer"
+  vocab_file: "vocab1k.json"
+  merges_file: "bpe_merges.txt"

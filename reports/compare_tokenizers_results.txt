@@ -1,0 +1,7 @@
+Tiktoken encoding: 1.257996 sec per call
+Our tokenizer encoding: 1.593552 sec per call
+len(token_ids_gpt)=3916207
+len(token_ids)=1529216
+Speedup (tiktoken/our_tokenizer): 0.79x
+Our tokenizer is faster!
+Our tokenizer is more efficient: len_our=1529216 < len_gpt=3916207 tokens

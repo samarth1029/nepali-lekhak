@@ -1,0 +1,25 @@
+training:
+  n_epochs: 10
+  scheduler:
+    warmup_steps: 500
+    initial_lr: 3.0e-5
+    min_lr: 1.0e-6
+  evaluation:
+    eval_freq: 100
+    eval_iter: 100
+  checkpointing:
+    checkpoint_dir: "checkpoints"
+    keep_last_n_epochs: 3
+    best_model_filename: "best_model.pth"
+    best_checkpoint_filename: "best_checkpoint.pth"
+    final_checkpoint_filename: "final_checkpoint.pth"
+    epoch_pattern: "epoch_{:04d}.pth"
+  sampling:
+    enabled: true
+    start_context: "नेपाल सुन्दर देश हो"
+    max_new_tokens: 50
+  optimizer:
+    lr: 5e-4
+    weight_decay: 0.01
+    betas: [0.9, 0.999]
+    eps: 1e-8
