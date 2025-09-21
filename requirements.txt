@@ -5,6 +5,10 @@ numpy>=1.26.0
 tqdm>=4.66.0
 pydantic>=2.7.0
 
+python-json-logger
+google-cloud-storage
+
+
 # Data & Utils
 pandas>=2.2.0
 datasets>=2.19.0

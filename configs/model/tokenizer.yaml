@@ -1,5 +1,5 @@
 tokenizer:
-  vocab_size: 1000
+  vocab_size: 50000
   min_frequency: 2
   special_tokens:
     - "<PAD>"

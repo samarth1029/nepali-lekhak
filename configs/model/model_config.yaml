@@ -1,5 +1,5 @@
 llm_model:
-  vocab_size: 1000
+  vocab_size: 50000
   context_length: 256
   emb_dim: 768
   n_heads: 12
